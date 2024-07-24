@@ -30,6 +30,14 @@ git checkout branch-name
 
 ## Stashing
 
+After a change if we do not want to make a commit we can save this changes as stash and later we can recover this changes from the stash
+
+```
+git stash save readmechange
+git stash list
+git stash apply
+```
+
 ## Merging
 
 ## Add
